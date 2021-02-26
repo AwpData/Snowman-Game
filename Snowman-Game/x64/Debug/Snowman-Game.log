@@ -1,0 +1,4 @@
+﻿  Snowman-Game.cpp
+C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\Snowman-Game.cpp(64,22): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\Snowman-Game.cpp(98,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Snowman-Game.vcxproj -> C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\x64\Debug\Snowman-Game.exe

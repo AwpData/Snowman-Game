@@ -1,0 +1,2 @@
+C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\x64\Debug\Snowman-Game.exe
+C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\x64\Debug\Snowman-Game.pdb
