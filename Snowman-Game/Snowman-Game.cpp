@@ -17,7 +17,7 @@ int main() {
 
 	while (lives > 0) {
 		system("CLS");
-		cout << word.getWord(); // de-comment if you want to see the word so you can test winning input :)
+		//cout << word.getWord(); // de-comment if you want to see the word so you can test winning input :)
 		man.printSnowman(lives);
 
 		word.printCharVector();
