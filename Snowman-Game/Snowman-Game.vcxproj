@@ -140,6 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Snowman-Game.cpp" />
+    <ClCompile Include="Snowman.cpp" />
+    <ClCompile Include="Wordlist.cpp" />
+    <ClCompile Include="WordManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Snowman.h" />
+    <ClInclude Include="Wordlist.h" />
+    <ClInclude Include="Wordmanager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
