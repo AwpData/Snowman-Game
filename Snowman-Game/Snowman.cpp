@@ -1,6 +1,6 @@
 #include "Snowman.h"
 
-Snowman::Snowman() {
+Snowman::Snowman() { // Creates each body part with the ASCII text 
 	this->head = "___\n		_|___|_\n	       '=/a a\\='\n		 \\~_ /";
 	this->leftArm = "_\\__";
 	this->body = "/ '-' \\\n		\\  o  /";

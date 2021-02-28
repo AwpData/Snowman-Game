@@ -9,6 +9,7 @@
 #include <string> 
 using namespace std;
 
+// Wordlist is the class that manages the array list of all words (invoked in Wordmanager class) 
 class Wordlist {
 private:
 	string words[60];
@@ -22,6 +23,4 @@ public:
 	string* getWordList();
 	void printWorldList();
 };
-
-
 #endif

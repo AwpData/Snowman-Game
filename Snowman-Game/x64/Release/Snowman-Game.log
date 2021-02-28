@@ -1,0 +1,13 @@
+﻿  Snowman-Game.cpp
+C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\Wordlist.h(18,22): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Snowman.cpp
+  Wordlist.cpp
+C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\Wordlist.h(18,22): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+  WordManager.cpp
+C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\Wordlist.h(18,22): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\WordManager.cpp(5,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 266 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Snowman-Game.vcxproj -> C:\Users\Trevor Tang\source\repos\Snowman-Game\Snowman-Game\x64\Release\Snowman-Game.exe

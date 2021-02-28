@@ -7,31 +7,37 @@
 
 using namespace std;
 
-int main() {
-	Snowman man;
-	Wordlist words;
-	WordManager word;
+Snowman man;
+WordManager word;
+int lives = 5;
+char input;
 
-	int lives = 5;
-	char input;
+void printScreen() { // Just prints everything you will see on screen 
+	man.printSnowman(lives);
+	word.printCharVector();
+	word.printGuessedLetterVector();
+}
+
+int main() {
 
 	while (lives > 0) {
 		system("CLS");
-		//cout << word.getWord(); // de-comment if you want to see the word so you can test winning input :)
-		man.printSnowman(lives);
+		//cout << word.getWord(); // de-comment if you want to see the word so you can test winning input 
+		if (lives == 1) {
+			cout << "The snowman is about to melt!" << endl;
+		}
 
-		word.printCharVector();
-		word.printGuessedLetterVector();
+		printScreen();
 
-		cout << "\nPlease guess a letter: ";
-		cin >> input;
-		input = tolower(input);
+		cout << "\nGuess a letter: ";
+		cin >> input; // Gets user character input 
+		input = tolower(input); // lowercases input so it can be checked with the words 
 
-		if (word.checkChar(input) == false) {
+		if (word.checkChar(input) == false) { // If the user inputted letter is not in the word, then subtract one from lives 
 			lives--;
 		}
 		else {
-			if (word.checkWin()) {
+			if (word.checkWin()) { // Checks to see if there are any underlines left (if none, then user wins)
 				break;
 			}
 		}
@@ -40,9 +46,7 @@ int main() {
 
 	system("CLS");
 
-	man.printSnowman(lives);
-	word.printCharVector();
-	word.printGuessedLetterVector();
+	printScreen();
 
 	if (lives == 0) {
 		cout << "\nYou lost! The snowman has melted!" << endl;
@@ -52,3 +56,4 @@ int main() {
 		cout << "\nYou won! The snowman survived!" << endl;
 	}
 }
+
